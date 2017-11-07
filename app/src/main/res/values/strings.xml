@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AdivinaDado</string>
+    <string name="sPresentacion">Adivina la tirada del dado</string>
+    <string name="sIntento">Te quedan: </string>
+    <string name="sBtnAccion">¡Prueba! </string>
+    <string name="sHint">Introduce Número </string>
+    <string name="sGanado">¡Has ganado!  </string>
+    <string name="sPerdido">¡Has perdido!</string>
+    <string name="sSinNumero">Introduce un número válido </string>
+    <string name="sMas">¡Te quedas corto! </string>
+    <string name="sMenos">¡Te pasas! </string>
+    <string name="sMuestraNumero">El número era:  </string>
+    <string name="sNombre1">Introduzca el nombre del jugador </string>
+    <string name="sNombre">Nombre </string>
+    <string name="btnEntroNombre">Registrar </string>
+    <string name="sEmpiezasIntentos">Empiezas con </string>
+    <string name="sCargando">CARGANDO TIRADA...</string>
+    <string name="sIntentos"> intentos. </string>
+    <string name="clave">CONT</string>
+    <string name="claveTexto">TEXT</string>
+    <string name="claveRandom">RAND</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img2"
+    tools:context="com.example.javier.adivinadado.RecogeNombre">
+    <TextView
+        android:id="@+id/txvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:text="@string/sNombre1"
+        android:textColor="@color/letra"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <EditText
+        android:id="@+id/etIntroduce2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/sNombre"
+        android:textColorHint="@color/letra"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/txvNombre"
+        android:layout_alignEnd="@+id/txvNombre"
+        android:layout_marginBottom="193dp" />
+
+    <Button
+        android:id="@+id/btnMetoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:onClick="onClick2"
+        android:text="@string/btnEntroNombre" />
+
+</RelativeLayout>
